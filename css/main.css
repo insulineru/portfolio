@@ -254,7 +254,7 @@ body._scroll-locked {
   text-decoration:none
 }
 
-.hello__link:active,html:not(._touch) .hello__link:hover {
+.hello__link:active, html:not(._touch) .hello__link:hover {
   border-color:#81cfe0;
   color:#3498db
 }
