@@ -215,7 +215,7 @@ body {
   background:#fff;
   color:#000;
   cursor:default;
-  font-family:VT323,monospace;
+  font-family: "PT Mono", serif, monospace;
   font-size:16px;
   line-height:1.5em;
   text-rendering:optimizeLegibility;
@@ -234,7 +234,7 @@ body._scroll-locked {
   color:#000;
   font-size:20px;
   line-height:24px;
-  max-width:480px;
+  max-width:580px;
   min-height:100vh;
   padding:40px
 }
@@ -244,7 +244,7 @@ body._scroll-locked {
   line-height:32px
 }
 
-.hello__contacts,.hello__sub {
+.hello__contacts,.hello__sub,.hello__projects, .to-index {
   margin-top:20px
 }
 
@@ -258,6 +258,12 @@ body._scroll-locked {
   border-color:#81cfe0;
   color:#3498db
 }
+
+.project__title {
+  line-height: 1.25;
+}
+
+
 
 .icon {
   fill:currentColor;
